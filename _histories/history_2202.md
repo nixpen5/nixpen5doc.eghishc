@@ -35,7 +35,7 @@ yearMonth: 2202
 <span class="box inspect">심사</span> - 본인부담구분 'B099' 사용 기간 유예 적용
 <span class="box inspect">심사</span> - 자보100, 산재100 보험유형 추가  (보험유형 항목 참조)
 <span class="box inspect">심사</span> - 명세서단위 특정내역 진료과 툴팁 표시 기능 추가 (특정내역탭 참조)
-<span class="box other">공통</span> - 업데이트히스토리 엣지에서 동작 변경 <a href="https://nixpen5doc.pointnix.com" target="_blank">(https://nixpen5doc.pointnix.com)</a>
+<span class="box other">공통</span> - 업데이트히스토리 엣지에서 동작 변경 <a href="https://nixpen5doc.eghishc.co.kr" target="_blank">(https://nixpen5doc.eghishc.co.kr)</a>
 <span class="box other">[디비툴]</span> 코로나상병 등록  ('U07' 외 다수)
 
 

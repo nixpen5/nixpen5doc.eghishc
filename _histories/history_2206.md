@@ -236,7 +236,7 @@ yearMonth: 2206
 <span class="box jemu">원무</span> - 문자발송창 붙여넣기 메뉴 동작  bug  
 
 
-<span class="box chart">진료</span> - 환자 개인투약이력 조회 기능 추가  (도움말 참조 : <a href="https://nixpen5doc.pointnix.com/docs/main13/sub22/page3">https://nixpen5doc.pointnix.com/docs/main13/sub22/page3</a>)
+<span class="box chart">진료</span> - 환자 개인투약이력 조회 기능 추가  (도움말 참조 : <a href="https://nixpen5doc.eghishc.co.kr/docs/main13/sub22/page3">https://nixpen5doc.eghishc.co.kr/docs/main13/sub22/page3</a>)
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.처방창 화면 참조
