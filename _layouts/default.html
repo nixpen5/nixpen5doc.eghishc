@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>NixPen 5.0 가이드</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+		<link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" type="image/png" href="{{ site.baseurl }}/images/favicon.png" sizes="152x152">
+
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				<a href="{{ site.baseurl }}/">
+					{{ site.title }}
+				</a>
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="{{ site.baseurl }}/search.html" method="get">
+				<input type="text" name="q" id="search-input" placeholder="검색" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav {% if site.show_full_navigation %}class="full-navigation"{% endif %}>
+				<ul>
+					<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
+						{% assign home = site.html_pages | where: 'url', '/' | first %}
+						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
+					</li>
+				</ul>
+				{% assign mains = site.docs | where_exp: "item", "item.mainCategory == nil" | sort: "mainOrder" %}
+				<ul>
+				{% for main in mains %}
+					{% if main.title == page.title or main.title == page.mainCategory %}						
+					<li class="nav-item top-level current"><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a></li>
+						<ul>
+						{% assign subs = site.docs | where: 'mainCategory', main.title | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
+						{% for sub in subs %}
+							{% if sub.title == page.title or sub.title == page.subCategory %}
+							<li class="nav-item current"><a href="{{ site.baseurl }}{{ sub.url }}">{{sub.title}}</a></li>
+								<ul>
+								{% assign items = site.docs | where: 'mainCategory', sub.mainCategory | where: "subCategory", sub.title | sort: "pageOrder" %}
+								{% for item in items %}
+										<li class="nav-item page {% if item == page %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a></li>
+								{% endfor %}
+								</ul>
+								{% else %}
+								<li class="nav-item "><a href="{{ site.baseurl }}{{ sub.url }}">{{sub.title}}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+						{% else %}
+						<li class="nav-item top-level "><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+				<ul>
+					{% assign historyHome = site.histories | where: 'historyHome', '1' | first %}
+					<li class="nav-item top-level {% if page.historyHome %}current{% endif %}">
+						<a href="{{ site.baseurl }}{{ historyHome.url }}">{{ historyHome.title }}{{ page.tags }}</a>
+					</li>
+					{% if page.historyHome %}
+						<ul>
+						{% assign histories = site.histories | where_exp: "item", "item.historyHome <> 1" | sort: "yearMonth" | reverse %}
+						{% for history in histories %}
+							<li class="nav-item {% if page.yearMonth == history.yearMonth %}current{% endif %}">
+								<a href="{{ site.baseurl }}{{ history.url }}">{{history.menuTitle}}</a>
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>
+				{% if page.mainCategory %}
+					{{ page.mainCategory }}{% if page.subCategory %} > {{page.subCategory}}{% else %}{% endif %}
+				{% else %}
+					{{ site.title }}
+				{% endif %}
+				</h2>
+				<h3>{{ page.title }}</h3>
+			</div>
+			<article class="content">
+			{{ content }}
+			{% if page.subCategory == nil %} <!--1-->
+				{% if page.mainCategory == nil %} <!--2-->
+				{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.title" | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
+					{% if children.size > 0 %} <!--3-->
+				<hr/>
+					<h2 class="text-delta">목차</h2>
+					<ul>
+						{% for child in children %}
+						<li>
+							<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}						
+						</li>
+						{% endfor %}			
+					</ul>
+					{% endif %} <!--3-->
+				{% else %} <!--2-->
+					{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.mainCategory" | where_exp: "item", "item.subCategory == page.title" | sort: "pageOrder" %}
+					{% if children.size > 0 %} <!--4-->
+				<hr/>
+					<h2 class="text-delta">목차</h2>
+					<ul>
+						{% for child in children %}
+						<li>
+							<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+						</li>
+						{% endfor %}
+					</ul>
+					{% endif %} <!--4-->
+				{% endif %}  <!--2-->
+			{% endif %} <!--1-->
+			{% if page.historyHome == 1 %}
+			<hr/>
+			<ul>
+				{% assign children = site.histories | where_exp: "item", "item.historyHome <> 1" | sort: "yearMonth" | reverse %}
+				{% for child in children %}
+				<li>
+					<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+				</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+	</body>
+</html>
