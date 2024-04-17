@@ -2,7 +2,7 @@
 title: 2024년 1월 소아 진료 정책 수가 신설 도움말
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 2
+pageOrder: 4
 ---
 
 <br>

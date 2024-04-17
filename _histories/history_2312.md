@@ -7,6 +7,19 @@ yearMonth: 2312
 
 <br>
 
+<input type="text" name="t" id="title-input" value="12월 29일 (금)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 1월 DRG 기초수가 등록 (자동 실행)
+- 고시 - 2024년 1월 약가툴 (자동 실행)
+- 고시 - 2024년 1월 수가툴 (자동 실행)
+- 고시 - 2024년 1월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
 <input type="text" name="t" id="title-input" value="12월 28일 (목)" autofocus readonly>
 
 <br>
@@ -16,50 +29,17 @@ yearMonth: 2312
 - 고시 - 만성질환관리료 신설 (2023년 12월 28일부터)
 <table class="imgBox">
     <td class="imgBox">
-        <a href="/images{{page.url}}/23.png" target="_blank">
-            <img class="minCenter" src="/images{{page.url}}/23.png">
-        </a>
-    </td>
-</table>  
-- 고시 - 종별 가산율 폐지 및 변경 (2024년 1월부터)
-<table class="imgBox">
-    <td class="imgBox">
         <a href="/images{{page.url}}/19.png" target="_blank">
             <img class="minCenter" src="/images{{page.url}}/19.png">
         </a>
     </td>
 </table>  
-- [고시 - 입원 명세서 분리 청구](/docs/main13/sub24/page4) (2024년 1월부터)
-- [고시 - 유방 촬영 산정 방법 변경](/docs/main13/sub24/page7) (2024년 1월부터)
+- [고시 - 상대가치 점수](/docs/main13/sub24/page6) (2024년 1월부터)
+- [고시 - 1월 적용 고시 사항](/docs/main13/sub24/page4) (2024년 1월부터)
+- [고시 - 검사 등급 변경 및 청구 방법](/docs/main13/sub24/page5) (2024년 1월부터)
 - [고시 - 소아 진료 정책 수가 신설](/docs/main13/sub24/page2) (2024년 1월부터)
 - [고시 - 입원료 가산룰 변경](/docs/main13/sub24/page3) (2024년 1월부터)
-- [고시 - 2세 미만 영유아 본인부담면제 특정기호 변경](/docs/main13/sub24/page8) (2024년 1월부터)
-- [고시 - 검사 등급 변경 및 청구 방법](/docs/main13/sub24/page5) (2024년 1월부터)
-- [고시 - 상대가치 점수](/docs/main13/sub24/page6) (2024년 1월부터)
-- 고시 - 모자동실 입원료 특정내역 `JT029` 신설 (2024년 1월부터)
-<table class="imgBox">
-    <td class="imgBox">
-        <a href="/images{{page.url}}/20.png" target="_blank">
-            <img class="minCenter" src="/images{{page.url}}/20.png">
-        </a>
-    </td>
-</table>  
-- 고시 - B형간염표면항원 중화검사 특정내역 `JS018` 신설 (2024년 1월부터)
-<table class="imgBox">
-    <td class="imgBox">
-        <a href="/images{{page.url}}/21.png" target="_blank">
-            <img class="minCenter" src="/images{{page.url}}/21.png">
-        </a>
-    </td>
-</table>  
-- 고시 - 입원료 코드 삭제 (2024년 1월부터)
-<table class="imgBox">
-    <td class="imgBox">
-        <a href="/images{{page.url}}/22.png" target="_blank">
-            <img class="minCenter" src="/images{{page.url}}/22.png">
-        </a>
-    </td>
-</table>  
+- [고시 - 2세 미만 영유아 본인부담면제 특정기호 변경](/docs/main13/sub24/page7) (2024년 1월부터)
 
 <br>
 
@@ -80,6 +60,7 @@ yearMonth: 2312
 </table>  
 
 - 고시 - 일차의료 만성질환 e-from 연계 서비스 지원
+    - [건강보험심사평가원](http://ef.hira.or.kr) 에서 **Agent 다운로드** 후 설치합니다.
     - 일차의료 만성질환 대상자 등록 시 내역 조회 및 점검서를 작성할 수 있습니다. (2023년 12월 28일부터)
 <table class="imgBox">
     <td class="imgBox">

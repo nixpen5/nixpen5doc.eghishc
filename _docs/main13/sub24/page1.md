@@ -2,7 +2,7 @@
 title: 2024년 1월 감염병 자동신고시스템 개편 도움말
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 1
+pageOrder: 7
 ---
 
 <br>

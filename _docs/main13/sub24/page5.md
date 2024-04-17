@@ -2,7 +2,7 @@
 title: 2024년 1월 검사 등급 및 청구 도움말
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 5
+pageOrder: 3
 ---
 
 <br>

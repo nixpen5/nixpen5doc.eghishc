@@ -2,7 +2,7 @@
 title: 2024년 1월 상대가치 점수 도움말
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 6
+pageOrder: 1
 ---
 
 <br>

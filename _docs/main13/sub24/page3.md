@@ -2,7 +2,7 @@
 title: 2024년 1월 입원료 가산룰 변경 도움말
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 3
+pageOrder: 5
 ---
 
 <br>
