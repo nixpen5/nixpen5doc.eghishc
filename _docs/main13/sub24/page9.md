@@ -114,7 +114,7 @@ pageOrder: 9
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images/{{page.url}}_8.png" target="_blank">
-            <img class="minCenter" src="/images/{{page.url}}_8.png">
+            <img class="minCenterSmallMid" src="/images/{{page.url}}_8.png">
         </a>
     </td>
 </table> 
