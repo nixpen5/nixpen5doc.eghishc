@@ -7,6 +7,51 @@ yearMonth: 2405
 
 <br>
 
+<input type="text" name="t" id="title-input" value="5월 30일 (목)" autofocus readonly>
+
+<br>
+
+## 새로운 기능
+
+- [키오스크 - 모바일건강 보험증 QR 코드 스캔 기능 추가](/docs/main13/sub24/page9)
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 입원 수납 화면에서 입원, 재원, 퇴원 환자 내역 우클릭 시 **입원 수납** 메뉴 표시
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/15.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/15.png">
+        </a>
+    </td>
+</table>
+- 원무 - 보험 유형 **일반** 환자 입원 진료비 세부산정내역서 출력 기능 지원
+- 진료 - 펜차트 **작성 일자** 일괄 적용 기능 추가
+    - 펜차트 작성 일자 변경 시 다른 펜차트 동일 적용 메시지가 팝업됩니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/16.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/16.png">
+        </a>
+    </td>
+</table>
+- 진료 - 외래 진료 속성 창 `F4` 에 **분류번호** 표시
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/17.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/17.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+<input type="text" name="t" id="title-input" value="5월 16일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - [고시 - 본인 확인 의무화](/docs/main13/sub24/page9)

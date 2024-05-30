@@ -50,6 +50,24 @@ pageOrder: 9
         </a>
     </td>
 </table> 
+<span style="color:#696868; padding-left: 30px;"></span>
+    - 키오스크 리더기에 아래 바코드를 순차(위에서 아래) 스캔하여 CDC 설치
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images/{{page.url}}_11.png" target="_blank">
+            <img class="minCenter" src="/images/{{page.url}}_11.png">
+        </a>
+    </td>
+</table> 
+<span style="color:#696868; padding-left: 30px;"></span>
+    - 키오스크 기능 로컬 설정에서 **바코드 스캐너 포트** 옵션 설정
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images/{{page.url}}_12.png" target="_blank">
+            <img class="minCenter" src="/images/{{page.url}}_12.png">
+        </a>
+    </td>
+</table> 
 
 <br>
 
@@ -66,9 +84,10 @@ pageOrder: 9
     </td>
 </table> 
 <span style="color:#696868; padding-left: 30px;"></span>
-    - 건강보험증 QR 코드를 리더기로 읽거나, 신분증 스캐너에 신분증명서(주민등록증, 운전면허증)를 삽입하여 인증을 진행합니다.
+    - 건강보험증 QR 코드를 리더기로 읽거나, 신분증 스캐너에 신분증(주민등록증, 운전면허증)를 삽입하여 인증을 진행합니다.
 <br>
 <span style="color:#696868; padding-left: 30px;">        ※ 신분증을 직접 확인하는 경우 대상 종류(주민등록증, 운전면허증, 여권, 건강보험증, 기타) 선택
+<span style="color:#696868; padding-left: 30px;">        ※ 대리 진료 등 확인 의무 면제 대상인 경우 **본인확인 대상 아님** 선택
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images/{{page.url}}_4.png" target="_blank">
@@ -95,6 +114,18 @@ pageOrder: 9
         </a>
     </td>
 </table> 
+- 키오스크에서 QR 코드 스캔으로 본인 인증
+    - **서비스** (접수, 수납, 증명서) 선택 후 건강보험증 QR 코드를 스캔 시 본인 인증을 수행합니다.
+    - 홈 화면에서 건강보험증 QR 코드를 먼저 스캔하는 경우, 대상 서비스가 자동으로 선택됩니다.
+        - 금일 수납 대기 건이 존재하는 경우 **수납** 으로 이동
+        - 금일 수납 대기 건이 존재하지 않는 경우 **접수** 로 이동
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images/{{page.url}}_8.png" target="_blank">
+            <img class="minCenterSmallMid" src="/images/{{page.url}}_8.png">
+        </a>
+    </td>
+</table> 
 - 본인 확인 대상인 경우 대기자 목록에 <span style="background-color:#FFFFCC">노란색</span> 으로 구분 표시
     - 대상 환자 우클릭 후 **신분증 확인** 을 진행할 수 있습니다.
 <table class="imgBox">
@@ -104,17 +135,17 @@ pageOrder: 9
         </a>
     </td>
 </table> 
+- **의료기관 본인확인 의무화 안내문 출력** 자료관리 메뉴 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images/{{page.url}}_10.png" target="_blank">
+            <img class="minCenter" src="/images/{{page.url}}_10.png">
+        </a>
+    </td>
+</table> 
 
 <br>
 
 ### ※ 주의
 
 - 신분증 스캐너로 환자 정보 식별 시 **주소** 값이 신분증 정보와 상이할 수 있으니 반드시 확인해주시기 바랍니다. (직접 편집 가능)
-- 현재 본인 인증은 데스크에서 가능합니다. 반드시 신분증 확인 후 접수·수납을 진행해주시기 바랍니다.
-<table class="imgBox">
-    <td class="imgBox">
-        <a href="/images/{{page.url}}_8.png" target="_blank">
-            <img class="minCenterSmallMid" src="/images/{{page.url}}_8.png">
-        </a>
-    </td>
-</table> 
