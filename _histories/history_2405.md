@@ -7,6 +7,18 @@ yearMonth: 2405
 
 <br>
 
+<input type="text" name="t" id="title-input" value="5월 31일 (금)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 6월 약가툴 (자동 실행)
+- 고시 - 2024년 6월 수가툴 (자동 실행)
+- 고시 - 2024년 6월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
 <input type="text" name="t" id="title-input" value="5월 30일 (목)" autofocus readonly>
 
 <br>
