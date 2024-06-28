@@ -1,0 +1,13 @@
+---
+title: 2024년 6월 업데이트 히스토리
+menuTitle: 2024년 6월
+historyHome: 0
+yearMonth: 2406
+---
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 7월 DRG 기초수가 등록 (자동 실행)
+- 고시 - [DRG 복강경하 수술 수가 및 치료재료 정액수가 산정](/docs/main13/sub24/page10)
