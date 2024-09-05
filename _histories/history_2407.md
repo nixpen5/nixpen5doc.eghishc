@@ -7,6 +7,22 @@ yearMonth: 2407
 
 <br>
 
+<input type="text" name="t" id="title-input" value="7월 31일 (수)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 8월 약가툴 (자동 실행)
+- 고시 - 2024년 8월 수가툴 (자동 실행)
+- 고시 - 2024년 8월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
+<input type="text" name="t" id="title-input" value="7월 4일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 고시 산재 청구 서식 `072` 적용 (2024년 7월 1일부터)
