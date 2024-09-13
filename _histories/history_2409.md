@@ -44,8 +44,8 @@ yearMonth: 2409
     </td>
 </table>
 
-- 고시 - 코로나19 유행 대비 진료 협력 병원 진료 지원금 적용
-    - 2024년 8월 28일부터 2024년 9월 30일까지 진료에 적용되며 2024년 9월 23일부터 청구 가능합니다.
+- 고시 - `IE017` 임시 코드 코로나19 유행 대비 진료 협력 병원 진료 지원금 적용
+    - 2024년 8월 28일부터 2024년 9월 30일까지 진료에 적용되며 <span style="color:red">2024년 9월 23일</span> 부터 청구 가능합니다.
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images{{page.url}}/5.png" target="_blank">
@@ -55,7 +55,15 @@ yearMonth: 2409
 </table>
 
 - 고시 - `IE100` 임시 코드 추석 연휴 운영 진료 지원금 적용
-    - 2024년 9월 14일부터 2024년 9월 18일까지 진료에 적용되며 2024년 10월 14일부터 청구 가능합니다.
+    - 2024년 9월 14일부터 2024년 9월 18일까지 진료에 적용되며 <span style="color:red">2024년 10월 14일</span> 부터 청구 가능합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/32.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/32.png">
+        </a>
+    </td>
+</table>
+
 - 고시 - 2025년 공휴일 적용
     - 공휴일 기준 정보에서 년도 별 공휴일 자료를 확인할 수 있습니다.
 <table class="imgBox">
