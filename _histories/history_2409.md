@@ -5,6 +5,24 @@ historyHome: 0
 yearMonth: 2409
 ---
 
+<br>
+
+<input type="text" name="t" id="title-input" value="9월 30일 (월)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 10월 약가툴 (자동 실행)
+- 고시 - 2024년 10월 수가툴 (자동 실행)
+- 고시 - 2024년 10월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
+<input type="text" name="t" id="title-input" value="9월 5일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 위탁 병원 보훈 감면 대상자 위탁 확대 관련 청구 방법 개정 (2024년 7월 17일부터)
