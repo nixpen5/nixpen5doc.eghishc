@@ -77,6 +77,11 @@ body {
 	}
 }
 
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+  }
+
 header {
 	$emblem-size: 35px;
 	$emblem-vertical-padding: ($nav-header-height - $emblem-size) / 2;
