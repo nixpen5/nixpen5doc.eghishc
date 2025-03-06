@@ -48,6 +48,12 @@ defaults:
     values:
       layout: default
 
+kramdown:
+  input: GFM  # GitHub Flavored Markdown 사용
+  hard_wrap: false  # 자동 코드 블록 방지
+  syntax_highlighter_opts:
+    disable: true  # 코드 하이라이터 비활성화
+
 permalink: /:categories/:title
 
 # Exclude from processing.
