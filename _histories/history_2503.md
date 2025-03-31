@@ -9,6 +9,8 @@ yearMonth: 2503
 
 <input type="text" name="t" id="title-input" value="3월 31일 (월)" autofocus readonly>
 
+<br>
+
 ## 고시
 
 - 고시 - 2025년 4월 약가툴 (자동 실행)
