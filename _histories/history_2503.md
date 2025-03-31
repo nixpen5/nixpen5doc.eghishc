@@ -7,6 +7,19 @@ yearMonth: 2503
 
 <br>
 
+<input type="text" name="t" id="title-input" value="3월 31일 (월)" autofocus readonly>
+
+## 고시
+
+- 고시 - 2025년 4월 약가툴 (자동 실행)
+- 고시 - 2025년 4월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
+<input type="text" name="t" id="title-input" value="3월 18일 (화)" autofocus readonly>
+
+<br>
+
 ## 새로운 기능
 
 - 원무 - 검안 오더 및 방사선 오더 기능 지원
