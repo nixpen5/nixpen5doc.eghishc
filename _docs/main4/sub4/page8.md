@@ -15,6 +15,7 @@ pageOrder: 8
             <li>헬로100 오늘접수</li>
             <li>헬로100 진료예약</li>
             <li>헬로100 비대면 진료</li>
+            <li>헬로100 QR접수</li>
         </ul>
         <div><br></div>
         <div><br></div>
@@ -365,4 +366,52 @@ pageOrder: 8
         <p><a href="/images/{{page.url}}_41.png" target="_blank"><img src="/images/{{page.url}}_41.png" alt="" width="50%"></a></p>
         <div><b>※ “비대면확정 남은시간 알림 사용” → 비대면 진료 요청이 확정 남은시간이 3분 미만이 되면 알림 발생</b><br></div>
         <p><a href="/images/{{page.url}}_42.png" target="_blank"><img src="/images/{{page.url}}_42.png" alt="" width="50%"></a></p>
+        <div><br></div><br>
+        <div>
+            <h2><b>헬로100 QR접수</b></h2>
+        </div>
+        <ul>
+            <li>헬로100 QR접수 환자 확인&nbsp;</li>
+            <ul>
+                <li>병원에 비치된 QR코드를 앱에서 스캔하여 접수한 경우</li>
+                <li>해당 환자 대기자 목록에서 이름 좌측에 ‘Q/’ 문자 표기</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_43.png" target="_blank"><img src="/images/{{page.url}}_43.png" alt="" width="100%"></a></p>
+        <ul>
+            <ul>
+                <li>앱에서 오늘접수 후 내원 하여 QR코드 스캔한 경우</li>
+                <li>해당 환자 대기자 목록에서 이름 좌측에 ‘H/’ 문자가 ‘Q/’ 로 변경</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_44.png" target="_blank"><img src="/images/{{page.url}}_44.png" alt="" width="100%"></a></p>
+        <ul>
+            <ul>
+                <li>앱에서 진료예약 후 예약일자에 환자가 내원 하여 QR코드 스캔한 경우</li>
+                <li>대기자 목록에 자동 추가 되며 이름 좌측에 ‘Q/’ 문자 표기</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_45.png" target="_blank"><img src="/images/{{page.url}}_45.png" alt="" width="100%"></a></p>
+        <ul>
+            <li>헬로100 QR접수 환자&nbsp;</li>
+            <ul>
+                <li>1) 진료대기 목록에서 방문접수전 접수내역 더블클릭</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_46.png" target="_blank"><img src="/images/{{page.url}}_46.png" alt="" width="100%"></a></p>
+        <ul>
+            <ul>
+                <li>2) 환자의 신상 및 방문목적 확인</li>
+                <li>3) [접수] 버튼을 클릭하여 접수 진행</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_47.png" target="_blank"><img src="/images/{{page.url}}_47.png" alt="" width="100%"></a></p>
+        <div><b>  &nbsp;&nbsp;※ 방문접수 처리 후 ‘Q/’ 표시가 ‘H/’ 로 변경 됩니다.</b><br></div>
+        <ul>
+            <ul>
+                <li>4) 진료실 대기목록에서 확정된 오늘접수 내역 확인</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_48.png" target="_blank"><img src="/images/{{page.url}}_48.png" alt="" width="50%"></a></p>
+        <div><br></div>
 </div>
