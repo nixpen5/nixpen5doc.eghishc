@@ -31,13 +31,34 @@ pageOrder: 8
         <p><a href="/images/{{page.url}}_1.png" target="_blank"><img src="/images/{{page.url}}_1.png" alt="" width="100%"></a></p>
         <ul>
             <ul>
-                <li>“사용” 항목에서 [Y] 선택</li>
                 <li>“요양기관번호” 항목에서 헬로100 서비스 가입한 요양기관 선택</li>
                 <li>“접수 IP 주소” 항목에서 헬로100 접수 연동 사용하고자 하는 PC 의 IP주소 입력</li>
             </ul>
         </ul>
         <div>   &nbsp;<b>※ 접수 연동 PC는 업무 시간 중 항상 차트를 실행 중이어야 합니다.</b></div>
         <p><a href="/images/{{page.url}}_2.png" target="_blank"><img src="/images/{{page.url}}_2.png" alt="" width="1057px"></a></p>
+        <ul>
+            <li>헬로100 아이콘 표시</li>
+            <ul>
+                <li>헬로100 사용 병원으로 확인된 경우 상태바에서 [ Hello100 ] 아이콘 표시</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_49.png" target="_blank"><img src="/images/{{page.url}}_49.png" alt="" width="75%"></a></p>
+        <ul>
+            <ul>
+                <li>환경설정 에서 “접수 IP 주소” 설정된 PC는 안테나 이미지 표시</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_50.png" target="_blank"><img src="/images/{{page.url}}_50.png" alt="" width="75%"></a></p>
+        <ul>
+            <li>헬로100 아이콘 메뉴</li>
+            <ul>
+                <li>관리자 페이지 : 관리자 페이지 연결</li>
+                <li>수동 갱신 : 대기자 순번 수동 새로고침</li>
+                <li>설정 : [환경설정] - [헬로100] 메뉴 팝업</li>
+            </ul>
+        </ul>
+        <p><a href="/images/{{page.url}}_51.png" target="_blank"><img src="/images/{{page.url}}_51.png" alt="" width="247px"></a></p>
         <div><br></div>
         <div><br></div>
         <div>
@@ -74,6 +95,7 @@ pageOrder: 8
             <ul>
                 <li>[기준정보] - [직원정보] 메뉴로 이동</li>
                 <li>헬로100 진료실 설정하고자 하는 의사를 선택</li>
+                <li>“헬로100 사용” 체크</li>
             </ul>
         </ul>
         <p><a href="/images/{{page.url}}_7.png" target="_blank"><img src="/images/{{page.url}}_7.png" alt="" width="100%"></a></p>
