@@ -82,6 +82,21 @@ body {
 	margin-bottom: 0;
   }
 
+.classic-doc ul {
+	margin-top: 0;
+	margin-bottom: 0;
+  }
+
+.classic-doc li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.classic-doc p {
+	margin-bottom: 0;
+  }
+
 header {
 	$emblem-size: 35px;
 	$emblem-vertical-padding: ($nav-header-height - $emblem-size) / 2;
